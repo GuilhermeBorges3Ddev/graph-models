@@ -143,7 +143,14 @@ export default function App() {
     <div className="App">
       <div className="App-header">
         <img src={logo} alt="btg-logo" width="150px" height="150px" />
-        <span>Biblioteca VX: <a>https://vx-demo.vercel.app/</a></span>
+        <span>Graph on VX library:</span>
+        <a
+           href="https://vx-demo.vercel.app/"
+           target="_blank"
+           rel="noopener noreferrer"
+        >
+          https://vx-demo.vercel.app/
+        </a>
         <Example width={900} height={450} />
       </div>
     </div>
